@@ -65,7 +65,7 @@ Key steps:
 2. Preprocess and augment images with `ImageDataGenerator`
 3. Fine-tune an Xception base model with a custom classification head
 4. Evaluate with accuracy, precision, recall, and a confusion matrix
-5. Export the trained model (`model.save('brain_tumor_model.h5')`)
+5. Export the trained model (`model.save('model.h5')`)
 
 **Note:** The Xception backbone expects **299×299** input images — make sure any inference code resizes images to match, or you'll hit a shape-mismatch error at prediction time.
 
