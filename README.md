@@ -1,4 +1,3 @@
-# Brain-Tumor-Detection
 # Brain Tumor Detection
 
 A deep learning web application that classifies brain MRI scans into four categories — **glioma**, **meningioma**, **pituitary tumor**, and **no tumor** — using a fine-tuned Xception CNN, served through a Flask web app.
